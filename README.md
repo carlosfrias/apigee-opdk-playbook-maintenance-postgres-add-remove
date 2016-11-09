@@ -15,5 +15,5 @@ These are ansible playbooks and require ansible.
 
 1. Please install and configure ansible as indicated in [opdk-setup-ansible](https://github.com/carlosfrias/apigee-setup-ansible).
 1. `ansible-galaxy install -f -r requirements.yml`
-1. `ansible-playbook -i <inventory file or folder> [postgresql-add.yml | postgresql-remove.yml]`
+1. `ansible-playbook -i <inventory file or folder> [postgresql-add.yml | postgresql-remove.yml] -e hosts=<qpid host>`
 
