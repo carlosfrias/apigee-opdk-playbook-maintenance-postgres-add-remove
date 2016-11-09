@@ -1,1 +1,15 @@
 ---
+- hosts: planet
+  tasks:
+  - setup:
+  - ec2_facts:
+
+- hosts: '{{ hosts }}'
+  vars:
+    pgmaster_group_name: 'dc-2-pgmaster'
+    pgstandby_group_name: 'dc-2-pgstandby'
+  vars_files:
+  - ~/.apigee/credentials.yml
+  roles:
+  - apigee-opdk-setup-postgresql-add
+  - apigee-opdk-setup-postgresql-remove
