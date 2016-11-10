@@ -1,0 +1,8 @@
+---
+- src: https://github.com/carlosfrias/apigee-opdk-setup-default-settings
+
+- src: https://github.com/carlosfrias/apigee-opdk-server-self
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-postgresql-add
+
+- src: https://github.com/carlosfrias/apigee-opdk-setup-postgresql-remove
