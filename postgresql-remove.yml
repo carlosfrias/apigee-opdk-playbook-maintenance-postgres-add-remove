@@ -11,5 +11,4 @@
   vars_files:
   - ~/.apigee/credentials.yml
   roles:
-  - apigee-opdk-setup-postgresql-add
   - apigee-opdk-setup-postgresql-remove
