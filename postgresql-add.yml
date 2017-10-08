@@ -6,8 +6,8 @@
 
 - hosts: '{{ hosts }}'
   vars:
-    pgmaster_group_name: 'dc2-pgmaster'
-    pgstandby_group_name: 'dc2-pgstandby'
+    pgmaster_group_name: 'dc-2-pgmaster'
+    pgstandby_group_name: 'dc-2-pgstandby'
   vars_files:
   - ~/.apigee/credentials.yml
   roles:
