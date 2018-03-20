@@ -17,3 +17,9 @@ These are ansible playbooks and require ansible.
 1. `ansible-galaxy install -f -r requirements.yml`
 1. `ansible-playbook -i <inventory file or folder> [postgresql-add.yml | postgresql-remove.yml] -e hosts=<qpid host>`
 
+<!-- BEGIN Google Required Disclaimer -->
+
+# Required Disclaimer
+
+This is not an officially supported Google product.
+<!-- END Google Required Disclaimer -->
